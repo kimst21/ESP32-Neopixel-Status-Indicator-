@@ -41,8 +41,8 @@ unsigned long previousMillis = 0;
 const long interval = 10000;  // Wi-Fi 연결을 기다리는 간격(밀리초)
 
 // WS2812B 어드레서블 RGB LED
-#define STRIP_1_PIN    48  // LED가 연결된 GPIO
-#define STRIP_2_PIN    17  // LED가 연결된 GPIO
+#define STRIP_1_PIN    17  // LED가 연결된 GPIO
+#define STRIP_2_PIN    4  // LED가 연결된 GPIO
 #define LED_COUNT  5  // LED 개수
 #define BRIGHTNESS 50  // 네오픽셀 밝기, 0(최소) ~ 255(최대)
 Adafruit_NeoPixel strip1(LED_COUNT, STRIP_1_PIN, NEO_GRB + NEO_KHZ800);
