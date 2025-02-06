@@ -38,8 +38,8 @@ unsigned long previousMillis = 0;
 const long interval = 10000;  // 10초 동안 Wi-Fi 연결을 시도
 
 // ********* WS2812B RGB LED 스트립 설정 *********
-#define STRIP_1_PIN 27  // 첫 번째 LED 스트립 연결 GPIO 핀
-#define STRIP_2_PIN 32  // 두 번째 LED 스트립 연결 GPIO 핀
+#define STRIP_1_PIN 4  // 첫 번째 LED 스트립 연결 GPIO 핀
+#define STRIP_2_PIN 17  // 두 번째 LED 스트립 연결 GPIO 핀
 #define LED_COUNT 5  // LED 개수
 #define BRIGHTNESS 50  // LED 밝기 (0 ~ 255)
 
